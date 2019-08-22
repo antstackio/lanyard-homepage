@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900|Ubuntu+Mono:400,700&display=swap&subset=devanagari");
+:root {
+  --text_primary_color: #333333;
+  --dark_base_color: #ff9900;
+  --light_bc: #f5ddb9;
+  --dark_base_color_2: #ffc400;
+  --black_bg: #1e2a39;
+  --border_color: #ddd;
+  --button_color: #ff9900;
+  --page_bg_color: #eeeeee;
+  --link_color: #000000;
+  --header_color: #ff9900;
+  --muted_color: #999999;
+  --faded_color: #bbbbbb;
+  --rc_main: #d32f2f;
+  --light_bg: #f7f7f7;
+  --font_primary: "Roboto" sans-serif;
+
+  --wb_grad: -webkit-linear-gradient(135deg, #ff9900, #ffc400);
+  --inset: inset 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  --shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 6px 10px -4px rgba(0, 0, 0, 0.2);
+  --cubic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  --wb_green: #4caf50;
+  --wb_red: #f44336;
+  --wb_blue: #2196f3;
+  --wb_orange: #ff9834;
+
+  --gutter_width: 25px;
+  --gutter_width_more: 50px;
+  --gutter_width_xs: 15px;
+}
+body {
+  background-color: var(--page_bg_color) !important;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+body,
+body * {
+  box-sizing: border-box;
+}
+body.scroll_lock {
+  height: 100vh;
+  overflow: hidden;
+}
+body.scroll_lock #fly_menu.opened {
+  z-index: 999999 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+@keyframes scalease {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.input,
+.Select-control,
+.Select-input input,
+input[disabled],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px 15px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  height: 45px;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 30px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  font-size: 16px !important;
+  outline: none;
+}
+
+textarea {
+  padding: 15px !important;
+  height: 100px;
+}
