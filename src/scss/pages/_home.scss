@@ -73,14 +73,7 @@
 #Features {
   background: $black_bg;
   color: #fff;
-  .the_title {
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
-    margin: -100px 0 100px;
-    line-height: 0;
-    text-shadow: -5px -5px 20px rgba($black_bg, 0.5);
-  }
+
   .fet_list {
     .fet_item {
       margin-bottom: 50px;
@@ -127,20 +120,29 @@
   }
 }
 
+.the_title {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin: -100px 0 100px;
+  line-height: 0;
+  text-shadow: -5px -5px 20px rgba($black_bg, 0.5);
+}
 #Screens {
   .show {
     display: flex;
     margin: 0 -15px;
     .screen {
       transform: scale(0.8);
-      padding: 40px 0 0;
       img {
         @include shadow;
         max-width: 100%;
         background: $black_bg;
+        border-radius: 15px;
       }
       &.main {
         transform: scale(1);
+        padding: 40px 0 0;
         img {
           border-radius: 30px;
         }
@@ -156,6 +158,22 @@
           transform: scaleY(0.92);
           transform-origin: bottom;
         }
+      }
+    }
+  }
+}
+
+#Clients {
+  min-height: 50vh !important;
+  background: #fff;
+  .client_list {
+    display: flex;
+    .client_item {
+      text-align: center;
+      padding: 30px;
+      img {
+        margin-bottom: 25px;
+        display: inline-block;
       }
     }
   }

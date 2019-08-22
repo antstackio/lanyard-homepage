@@ -8,6 +8,7 @@ import ss5 from "../images/ss5.jpg"
 
 const Screens = () => (
   <div id="Screens">
+    <h1 className="the_title solid">Screens</h1>
     <div className="container">
       <div className="in_wrap by_two">
         <div className="show">
