@@ -1,7 +1,7 @@
 import React from "react"
 
 import blr from "../images/blr.jpg"
-import bcb from "../images/bcb.jpg"
+import mum from "../images/mum.jpg"
 import chn from "../images/chn.jpg"
 
 const Clients = () => (
@@ -16,8 +16,8 @@ const Clients = () => (
           </div>
 
           <div className="client_item">
-            <img src={bcb} />
-            <p>Bar Camp Bengaluru</p>
+            <img src={mum} />
+            <p>AWS Users Group Mumbai</p>
           </div>
 
           <div className="client_item">
