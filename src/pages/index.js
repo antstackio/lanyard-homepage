@@ -8,6 +8,7 @@ import MainSection from "../components/MainSection"
 import Features from "../components/Features"
 import Screens from "../components/Screens"
 import Clients from "../components/Clients"
+import Footer from "../components/Footer"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Features />
     <Screens />
     <Clients />
+    <Footer />
   </Layout>
 )
 

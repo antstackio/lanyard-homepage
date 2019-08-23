@@ -1,6 +1,79 @@
 #header {
   position: fixed;
   left: 0;
+  transition: all 0.25s;
   right: 0;
   top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px 50px;
+  height: 70px;
+  z-index: 9999;
+  color: $black_bg;
+  .logo {
+    position: absolute;
+    left: 50px;
+    top: -5px;
+    transform: translateY(-100%);
+    transition: all 0.25s;
+    transform-origin: top center;
+    img {
+      display: block;
+      max-width: 75px;
+      transform-origin: top center;
+      animation: swing 1s infinite alternate ease-in-out;
+    }
+  }
+  ul {
+    display: flex;
+    li {
+      text-transform: uppercase;
+      & ~ li {
+        margin-left: 30px;
+      }
+    }
+  }
+  &.scrolled {
+    background: $black_bg;
+    color: #fff;
+    @include shadow;
+    .logo {
+      transition: all 0.25s 1s;
+      animation: bounce 1s cubic-bezier(0.28, 0.84, 0.42, 1);
+      transform: translateY(0%);
+    }
+  }
+}
+@keyframes swing {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-7deg);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(-100%);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-50%);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
