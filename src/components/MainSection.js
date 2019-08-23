@@ -17,6 +17,8 @@ const MainSection = () => (
             think there may be many more organizers who woould love to use
             something like Lanyard & hence we decided to open-source the project
           </p>
+          <br />
+          <button>Get Lanyard</button>
         </div>
         <div className="right">
           <img src={phone} alt="phone_Demo" className="iphone" />

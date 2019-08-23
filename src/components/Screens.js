@@ -28,6 +28,15 @@ const Screens = () => (
             <img src={ss5} alt="ss5" />
           </div>
         </div>
+        <div className="center-align">
+          <br />
+          <p>
+            Here are few screens of <b>Lanyard App</b>. Visit our github page
+            and dive in deep.
+          </p>
+          <br />
+          <button>Get Lanyard</button>
+        </div>
       </div>
     </div>
   </div>
