@@ -1,0 +1,598 @@
+[
+  {
+    "slots": [
+      {
+        "eventType": "break",
+        "img": "check-in",
+        "room": null,
+        "slotId": "slot-1",
+        "timeStart": 1565404200000,
+        "timeEnd": 1565407800000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event1",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "feedBack": false,
+            "title": "Registration and Networking"
+          }
+        ]
+      },
+      {
+        "eventType": "other",
+        "img": "default",
+        "room": null,
+        "slotId": "slot-2",
+        "timeStart": 1565407800000,
+        "timeEnd": 1565411400000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event2",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "feedBack": false,
+            "title": "Keynote: Serverless Beyond Functions: Building Modern Applications",
+            "speakers": [
+              {
+                "firstName": "Danilo",
+                "lastName": "Poccia",
+                "profilePicture": "Danilo.jpg",
+                "designation": "Principal Evangelist, Serverless at Amazon Web Services.",
+                "externalLink": "https://www.linkedin.com/in/dpoccia/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "other",
+        "img": "default",
+        "room": null,
+        "slotId": "slot-3",
+        "timeStart": 1565411400000,
+        "timeEnd": 1565413200000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event3",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "feedBack": false,
+            "title": "Unified Analytics with AWS",
+            "speakers": [
+              {
+                "firstName": "Jayaraman",
+                "lastName": "Palaniappan",
+                "profilePicture": "Jay.jpg",
+                "designation": "Principal Solutions Architect, AWS Cloud & Big Data, Agilisium",
+                "externalLink": "https://www.linkedin.com/in/jayaraman-palaniappan-57b7487/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "other",
+        "img": "default",
+        "room": null,
+        "slotId": "slot-4",
+        "timeStart": 1565413200000,
+        "timeEnd": 1565415000000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event4",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "feedBack": false,
+            "title": "How to Optimize AWS and do more",
+            "speakers": [
+              {
+                "firstName": "Adhyuth",
+                "lastName": "Ramadyani",
+                "profilePicture": "Adhyuth.jpg",
+                "designation": "AVP BuilderCloud Sales, ENGINEER.AI",
+                "externalLink": "https://www.linkedin.com/in/adhyuth-adam-ramadyani-269ba06/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "other",
+        "img": "default",
+        "room": null,
+        "slotId": "slot-5",
+        "timeStart": 1565415000000,
+        "timeEnd": 1565416200000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event5",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "feedBack": false,
+            "title": "Alexa Everywhere: The Future is Voice",
+            "speakers": [
+              {
+                "firstName": "Sohan",
+                "lastName": "Maheshwar",
+                "profilePicture": "Sohan.jpg",
+                "designation": "Alexa Evangelist, Amazon",
+                "externalLink": "https://www.linkedin.com/in/sohanmaheshwar/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "break",
+        "img": "tea_break",
+        "room": null,
+        "slotId": "slot-6",
+        "timeStart": 1565416200000,
+        "timeEnd": 1565417400000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event6",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "title": "Tea Break and Networking"
+          }
+        ]
+      },
+      {
+        "eventType": "talk",
+        "room": null,
+        "slotId": "slot-7",
+        "timeStart": 1565417400000,
+        "timeEnd": 1565419200000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event7",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Pragmatic Real-Time API design and DevOps with AWS Amplify",
+            "speakers": [
+              {
+                "firstName": "Manoj",
+                "lastName": "Fernando",
+                "profilePicture": "Manoj.jpg",
+                "designation": "AWS Community Hero | Tech Lead at 99X Technology, Sri Lanka",
+                "externalLink": "https://www.linkedin.com/in/manoj-fernando-b7351935/"
+              }
+            ]
+          },
+          {
+            "trackId": "event8",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Chaos Engineering at Hotstar",
+            "speakers": [
+              {
+                "firstName": "Gaurav",
+                "lastName": "Kamboj",
+                "profilePicture": "Gaurav.jpg",
+                "designation": "AWS Community Hero | Cloud Architect, Hotstar",
+                "externalLink": "https://www.linkedin.com/in/gauravkamboj/"
+              }
+            ]
+          },
+          {
+            "trackId": "event9",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "AWS Diversity Session: Women in Technology",
+            "speakers": [
+              {
+                "firstName": "Archana",
+                "lastName": "Ramanakumar",
+                "profilePicture": "Archana.jpg",
+                "designation": "Vice President & Global Delivery Head Life Sciences Practice, Cognizant",
+                "externalLink": "https://www.linkedin.com/in/archana-ramanakumar-6312202/?originalSubdomain=in"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "talk",
+        "room": null,
+        "slotId": "slot-8",
+        "timeStart": 1565419500000,
+        "timeEnd": 1565421300000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event10",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Leveraging Machine Learning to Reduce Mean Time to Identify and Resolve Issues when handling Systems/Applications at Scale",
+            "speakers": [
+              {
+                "firstName": "Paul",
+                "lastName": "Rajesh",
+                "profilePicture": "Paul.jpg",
+                "designation": "Director India Sales, Sumo Logic",
+                "externalLink": "https://www.linkedin.com/in/paulrajesh/"
+              },
+              {
+                "firstName": "Vikas",
+                "lastName": "Srivastava",
+                "profilePicture": "Vikas.jpg",
+                "designation": "Lead SRE, Sumo Logic",
+                "externalLink": "https://www.linkedin.com/in/vikas-srivastava-47a6482b/"
+              }
+            ]
+          },
+          {
+            "trackId": "event11",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Security Hardening of Popular AWS Services",
+            "speakers": [
+              {
+                "firstName": "Runcy",
+                "lastName": "Oommen",
+                "profilePicture": "Runcy.jpg",
+                "designation": "Cloud Architect, Bridgei2i",
+                "externalLink": "https://www.linkedin.com/in/runcyoommen/"
+              }
+            ]
+          },
+          {
+            "trackId": "event12",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "CI/CD using AWS Developer Tools'",
+            "speakers": [
+              {
+                "firstName": "Bhuvaneswari",
+                "lastName": "Subramani",
+                "profilePicture": "Bhuvaneswari.jpg",
+                "designation": " Director Engineering Operations, Infor",
+                "externalLink": "https://www.linkedin.com/in/bhuvanas/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "break",
+        "img": "lunch_break",
+        "room": null,
+        "slotId": "slot-9",
+        "timeStart": 1565421300000,
+        "timeEnd": 1565425200000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event13",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "title": "Lunch and Networking"
+          }
+        ]
+      },
+      {
+        "eventType": "talk",
+        "room": null,
+        "slotId": "slot-10",
+        "timeStart": 1565425200000,
+        "timeEnd": 1565427600000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event14",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Become Thanos of the Lambda Land: Wield all the Infinity Stones",
+            "speakers": [
+              {
+                "firstName": "Srushith",
+                "lastName": "Repakula",
+                "profilePicture": "Srushith.jpg",
+                "designation": "Head of Engineering, KonfHub",
+                "externalLink": "https://www.linkedin.com/in/srushith/"
+              }
+            ]
+          },
+          {
+            "trackId": "event15",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Postman's Journey from Data Warehouse to Data Lake",
+            "speakers": [
+              {
+                "firstName": "Dushyant",
+                "lastName": "Chillale",
+                "profilePicture": "Dushyant.jpg",
+                "designation": "Engineering Manager, Postman",
+                "externalLink": "https://www.linkedin.com/in/dushyant1/"
+              },
+              {
+                "firstName": "Shubham",
+                "lastName": "Bhargav",
+                "profilePicture": "Shubham.jpg",
+                "designation": "Platform/Data Engineer, Postman",
+                "externalLink": "https://www.linkedin.com/in/shubhambhargav/"
+              }
+            ]
+          },
+          {
+            "trackId": "event16",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Serverless Growth: Stories from Scaling a Developer Platform",
+            "speakers": [
+              {
+                "firstName": "Satwik",
+                "lastName": "Hebbar",
+                "profilePicture": "Satwik.jpg",
+                "designation": "Director Of Engineering, Freshworks",
+                "externalLink": "https://www.linkedin.com/in/satwikhebbar/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "talk",
+        "room": null,
+        "slotId": "slot-11",
+        "timeStart": 1565428200000,
+        "timeEnd": 1565430600000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event17",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Our Journey with AWS from 0 (ZERO) Orders to 6 Digit Mark",
+            "speakers": [
+              {
+                "firstName": "Pranesh",
+                "lastName": "Vittal",
+                "profilePicture": "Pranesh.jpg",
+                "designation": "Associate Director - Database & DevOps, Medlife.com",
+                "externalLink": "https://www.linkedin.com/in/praneshvittal/"
+              },
+              {
+                "firstName": "Prabhakar",
+                "lastName": "C",
+                "profilePicture": "Prabhakar.jpg",
+                "designation": "Senior DevOps Engineer, Medlife.com",
+                "externalLink": "https://www.linkedin.com/in/prabhakar-c-10a05918b/"
+              }
+            ]
+          },
+          {
+            "trackId": "event18",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Rapid development, Continuous Integration and Delivery (CI/CD) for Chatbots on AWS",
+            "speakers": [
+              {
+                "firstName": "Muthukumar",
+                "lastName": "Oman",
+                "profilePicture": "Muthukumar.jpg",
+                "designation": "AWS Cloud Architect, Agilisium Consulting",
+                "externalLink": "https://www.linkedin.com/in/omuthu/"
+              }
+            ]
+          },
+          {
+            "trackId": "event19",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Effective AWS Account Strategy using AWS Organisation, other Techniques and How to Defend Cloud Infrastructure Attacks",
+            "speakers": [
+              {
+                "firstName": "Steve",
+                "lastName": "Teo",
+                "profilePicture": "Steve.jpg",
+                "designation": "Director Cloud Security Engineering at Horangi, Singapore",
+                "externalLink": "https://www.linkedin.com/in/steveteo/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "talk",
+        "room": null,
+        "slotId": "slot-12",
+        "timeStart": 1565431200000,
+        "timeEnd": 1565433600000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event20",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "AWS Secrets Manager - Best Practices & Usecases",
+            "speakers": [
+              {
+                "firstName": "Vijaya Nirmala",
+                "lastName": "Gopal",
+                "profilePicture": "Vijaya.jpg",
+                "designation": "Technical Lead - Cloud DevOps Solutions Engineering, Sonata Software",
+                "externalLink": "https://www.linkedin.com/in/vijayanirmalagopal-5a54159a/"
+              }
+            ]
+          },
+          {
+            "trackId": "event21",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Building Engaging Voice Experiences with Alexa",
+            "speakers": [
+              {
+                "firstName": "Karthik",
+                "lastName": "Ragubathy",
+                "profilePicture": "Karthik.jpg",
+                "designation": "Solutions Architect, Alexa Skills Kit, Amazon",
+                "externalLink": "https://www.linkedin.com/in/pkarthikr/"
+              }
+            ]
+          },
+          {
+            "trackId": "event22",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Massive Scale at Low Cost using EC2 Spot Instances",
+            "speakers": [
+              {
+                "firstName": "Chakravarthy",
+                "lastName": "Nagarajan",
+                "profilePicture": "Chakravarthy.jpg",
+                "designation": "Solutions Architect, AWS",
+                "externalLink": "https://www.linkedin.com/in/chakravarthy-nagarajan-7653311a/"
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "eventType": "break",
+        "img": "networking",
+        "room": null,
+        "slotId": "slot-13",
+        "timeStart": 1565433600000,
+        "timeEnd": 1565435400000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event23",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "title": "Tea Break and Networking"
+          }
+        ]
+      },
+      {
+        "eventType": "talk",
+        "room": null,
+        "slotId": "slot-14",
+        "timeStart": 1565435400000,
+        "timeEnd": 1565437200000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event24",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Serverless vs Kubernetes : A Civil War",
+            "speakers": [
+              {
+                "firstName": "Dwarakanath",
+                "lastName": "Ramachandran",
+                "profilePicture": "Dwarakanath.jpg",
+                "designation": "Principal Architect, 8KMiles",
+                "externalLink": "https://www.linkedin.com/in/rdwarak/"
+              }
+            ]
+          },
+          {
+            "trackId": "event25",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "From Notebook to Production with Amazon SageMake",
+            "speakers": [
+              {
+                "firstName": "Praveen",
+                "lastName": "Jayakumar",
+                "profilePicture": "Praveen.jpg",
+                "designation": "Senior Solutions Architect, AWS",
+                "externalLink": "https://www.linkedin.com/in/pjpraveen/"
+              }
+            ]
+          },
+          {
+            "trackId": "event26",
+            "selectedFlag": "notSelected",
+            "trackLength": 1,
+            "feedBack": false,
+            "title": "Powering Test Environments on AWS EKS using Serverless Tool",
+            "speakers": [
+              {
+                "firstName": "Karthikeyan ",
+                "lastName": "Venkatraman",
+                "profilePicture": "Karthikeyan.jpg",
+                "designation": "Lead Infrastructure Engineer, Chargebee",
+                "externalLink": "https://www.linkedin.com/in/cb-karthik/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "eventType": "other",
+        "img": "default",
+        "room": null,
+        "slotId": "slot-15",
+        "timeStart": 1565437500000,
+        "timeEnd": 1565439300000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event27",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "feedBack": false,
+            "title": "Closing Keynote: Building Smart Applications Using AI/ML Services",
+            "speakers": [
+              {
+                "firstName": "Madhusudan",
+                "lastName": "Shekar",
+                "profilePicture": "Madhusudan.jpg",
+                "designation": "Head Digital Innovation, Amazon Web Services.",
+                "externalLink": "https://www.linkedin.com/in/madhusudanshekar/"
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "eventType": "break",
+        "img": "closing",
+        "room": null,
+        "slotId": "slot-16",
+        "timeStart": 1565439300000,
+        "timeEnd": 1565440200000,
+        "slotFeedBack": false,
+        "tracks": [
+          {
+            "trackId": "event28",
+            "selectedFlag": "default",
+            "trackLength": 3,
+            "title": "Lucky Draw & Closing Note"
+          }
+        ]
+      }
+    ]
+  }
+]
