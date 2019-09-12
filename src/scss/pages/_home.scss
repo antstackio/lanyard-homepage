@@ -1,12 +1,15 @@
 #lnyrd_page {
   > main {
-    > div {
+    > div > div {
       min-height: 100vh;
       padding: 100px 0;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      @include respondToBelow(sm) {
+        padding: 50px 0;
+      }
     }
   }
 }
@@ -41,6 +44,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      @include respondToBelow(xs) {
+        flex-wrap: wrap;
+      }
       .left {
         width: 70%;
         padding: 30px;
@@ -49,9 +55,18 @@
           width: 200px;
           display: block;
           margin: 0 auto 50px;
+          @include respondToBelow(xs) {
+            width: 100px;
+            margin: 0 auto 25px;
+          }
         }
         p {
           font-size: 14px;
+        }
+
+        @include respondToBelow(xs) {
+          width: 100%;
+          padding: 15px;
         }
       }
       .right {
@@ -65,6 +80,12 @@
           top: 22px;
           bottom: 0;
         }
+
+        @include respondToBelow(xs) {
+          display: none;
+          width: 100%;
+          padding: 30px;
+        }
       }
     }
   }
@@ -77,19 +98,72 @@
   .fet_list {
     .fet_item {
       margin-bottom: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include respondToAbove(md) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
       .im_ttl {
         flex: 1 0 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 30px;
+        @include respondToBelow(sm) {
+          padding: 15px;
+        }
         .dif_im {
-          width: 40%;
+          width: calc(40% + 50px);
           height: 200px;
-          background: rgba(255, 255, 255, 0.2);
+          border: solid 5px rgba($dark_base_color, 0.2);
+          position: relative;
+          @include respondToBelow(sm) {
+            width: calc(40% + 50px);
+            border: solid 3px rgba($dark_base_color, 0.2);
+            height: 100px;
+          }
+          &:before {
+            content: "";
+            margin: auto;
+            left: 50px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            background-size: auto 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          &.time_aware {
+            &:before {
+              background-image: url(../images/time_aware.svg);
+            }
+          }
+          &.sched {
+            &:before {
+              background-image: url(../images/sched.svg);
+            }
+          }
+          &.feedback {
+            &:before {
+              background-image: url(../images/feedback.svg);
+            }
+          }
+          &.pwa {
+            &:before {
+              background-image: url(../images/pwa.svg);
+            }
+          }
+          &.offline {
+            &:before {
+              background-image: url(../images/offline.svg);
+            }
+          }
+          &.kiosk {
+            &:before {
+              background-image: url(../images/kiosk.svg);
+            }
+          }
         }
         h4 {
           font-size: 25px;
@@ -100,11 +174,19 @@
           text-align: right;
           position: relative;
           margin: 0;
+          @include respondToBelow(sm) {
+            font-size: 20px;
+            width: calc(50% + 50px);
+          }
         }
       }
       .desc {
         flex: 1 0 0;
         padding: 30px;
+        @include respondToBelow(sm) {
+          padding: 15px;
+          font-size: 14px;
+        }
       }
       &:nth-child(even) {
         flex-direction: row-reverse;
@@ -113,6 +195,12 @@
           h4 {
             transform: translateX(-50px);
             text-align: left;
+          }
+          .dif_im {
+            &::before {
+              left: 0;
+              right: 50px;
+            }
           }
         }
       }
@@ -127,25 +215,61 @@
   margin: -100px 0 100px;
   line-height: 0;
   text-shadow: -5px -5px 20px rgba($black_bg, 0.5);
+  @include respondToBelow(sm) {
+    font-size: 7vh;
+    margin: -50px 0 50px;
+  }
+}
+.mini_title {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 50px;
+  line-height: 0;
+  font-size: 2vw;
+  @include respondToBelow(sm) {
+    font-size: 3vh;
+    margin: -50px 0 50px;
+  }
 }
 #Screens {
+  @include respondToBelow(sm) {
+    min-height: auto !important;
+    padding: 100px 0 !important;
+    .the_title {
+      margin: -100px 0 100px;
+    }
+  }
   .show {
     display: flex;
     margin: auto;
     max-width: 75%;
+    @include respondToBelow(sm) {
+      max-width: 90%;
+    }
     .screen {
       transform: scale(0.8);
       img {
         @include shadow;
         max-width: 100%;
-        background: $black_bg;
         border-radius: 15px;
+        @include respondToBelow(sm) {
+          border-radius: 5px;
+        }
       }
       &.main {
         transform: scale(1);
         padding: 25px 0 0;
+        background: $black_bg;
+        border-radius: 30px;
+        @include respondToBelow(sm) {
+          border-radius: 5px;
+          padding: 12.5px 0 0;
+        }
         img {
           border-radius: 20px;
+          @include respondToBelow(sm) {
+            border-radius: 5px;
+          }
         }
         &:after {
           content: "";
@@ -175,6 +299,23 @@
         display: inline-block;
       }
     }
+    @include respondToBelow(sm) {
+      max-width: 100%;
+      overflow: auto;
+      .client_item {
+        min-width: 75%;
+        padding: 15px;
+        margin-right: 15px;
+        border: solid 1px $dark_base_color;
+        &:first-child {
+          margin-left: 12.5%;
+        }
+      }
+      &:after {
+        content: "";
+        min-width: calc(12.5% - 15px);
+      }
+    }
   }
 }
 
@@ -191,8 +332,14 @@
     bottom: 0;
     top: 0;
     background: #fff url(../images/footer_top_bg.svg) top center no-repeat;
-    background-size: 100%;
+    background-size: 120%;
     z-index: 0;
+  }
+  @include respondToBelow(sm) {
+    padding-top: 200px !important;
+    &:before {
+      background-size: auto 100%;
+    }
   }
   &:after {
     content: "";
@@ -213,6 +360,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include respondToBelow(sm) {
+      flex-direction: column;
+    }
     img {
       width: 150px;
     }
@@ -232,5 +382,14 @@
   }
   .foot_note {
     text-align: center;
+    @include respondToBelow(sm) {
+      font-size: 13px;
+    }
+  }
+}
+
+body {
+  @include respondToBelow(sm) {
+    padding-bottom: 49px;
   }
 }

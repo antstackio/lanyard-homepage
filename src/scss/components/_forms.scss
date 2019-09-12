@@ -23,6 +23,13 @@ button,
 .button {
   @include button_style;
 }
+input[type="color"] {
+  height: 40px;
+  width: 40px;
+  border: 0;
+  background: transparent;
+  padding: 0 2px;
+}
 input[type="date"] {
   &::-webkit-calendar-picker-indicator {
     position: absolute;

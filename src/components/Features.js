@@ -8,7 +8,7 @@ const Features = () => (
         <div className="fet_item">
           <div className="im_ttl">
             <h4>Time Aware</h4>
-            <div className="dif_im"></div>
+            <div className="dif_im time_aware"></div>
           </div>
           <div className="desc">
             <p>
@@ -21,7 +21,7 @@ const Features = () => (
         <div className="fet_item">
           <div className="im_ttl">
             <h4>Make Your Own Schedule</h4>
-            <div className="dif_im"></div>
+            <div className="dif_im sched"></div>
           </div>
           <div className="desc">
             <p>
@@ -33,7 +33,7 @@ const Features = () => (
         <div className="fet_item">
           <div className="im_ttl">
             <h4>Talk Level Feedback</h4>
-            <div className="dif_im"></div>
+            <div className="dif_im feedback"></div>
           </div>
           <div className="desc">
             <p>
@@ -47,7 +47,7 @@ const Features = () => (
         <div className="fet_item">
           <div className="im_ttl">
             <h4>Progressive Web App (PWA)</h4>
-            <div className="dif_im"></div>
+            <div className="dif_im pwa"></div>
           </div>
           <div className="desc">
             <p>
@@ -59,7 +59,7 @@ const Features = () => (
         <div className="fet_item">
           <div className="im_ttl">
             <h4>Works offline!</h4>
-            <div className="dif_im"></div>
+            <div className="dif_im offline"></div>
           </div>
           <div className="desc">
             <p>
@@ -73,7 +73,7 @@ const Features = () => (
         <div className="fet_item">
           <div className="im_ttl">
             <h4>Kiosk Mode</h4>
-            <div className="dif_im"></div>
+            <div className="dif_im kiosk"></div>
           </div>
           <div className="desc">
             <p>
