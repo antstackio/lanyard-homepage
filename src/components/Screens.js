@@ -35,7 +35,9 @@ const Screens = () => (
             and dive in deep.
           </p>
           <br />
-          <button>Get Lanyard</button>
+          <a className="button" href="//github.com/antstackio/lanyard">
+            Get Lanyard
+          </a>
         </div>
       </div>
     </div>

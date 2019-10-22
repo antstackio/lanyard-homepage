@@ -265,3 +265,35 @@
     }
   }
 }
+
+.react-datepicker-wrapper {
+  width: 100%;
+
+  .react-datepicker__time-container
+    .react-datepicker__time
+    .react-datepicker__time-box,
+  .react-datepicker__time-container {
+    width: 150px;
+  }
+}
+#NewSlot {
+  .form-group {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .form-row {
+      width: calc(50% - 50px / 2);
+      &.full {
+        width: 100%;
+      }
+    }
+  }
+  .tracks {
+    width: 100%;
+    padding: 15px;
+    margin-left: 30px;
+    margin-left: 30px;
+    border: solid 1px #ddd;
+  }
+}

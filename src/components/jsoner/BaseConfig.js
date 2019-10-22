@@ -21,7 +21,7 @@ const BaseConfig = props => {
     const temObj = {
       eventName: evName,
       eventSpan: evSpan,
-      eventDate: evDate,
+      eventDate: new Date(evDate).getTime(),
       eventTracks: evTracks,
       eventSolidColor: evSolidColor,
       eventDarkColor: evDarkColor,

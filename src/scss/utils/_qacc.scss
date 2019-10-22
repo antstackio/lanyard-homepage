@@ -3,7 +3,7 @@ body small {
 }
 
 a {
-  &:hover {
+  &:not(.button):hover {
     color: $dark_base_color;
   }
 }

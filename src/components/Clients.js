@@ -3,6 +3,7 @@ import React from "react"
 import blr from "../images/blr.jpg"
 import mum from "../images/mum.jpg"
 import chn from "../images/chn.jpg"
+import aav from "../images/aav.jpg"
 
 const Clients = () => (
   <div id="Clients">
@@ -18,6 +19,10 @@ const Clients = () => (
           <div className="client_item">
             <img src={mum} />
             <p>AWS Users Group Mumbai</p>
+          </div>
+          <div className="client_item">
+            <img src={aav} />
+            <p>Amazon Alexa VOXCON </p>
           </div>
 
           <div className="client_item">
