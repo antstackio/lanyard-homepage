@@ -38,7 +38,7 @@ const Footer = () => (
         </div>
         <hr className="hr" />
         <p className="foot_note">
-          Powered by Lanyard © 2019 all rights reserved.
+          Powered by antstack.io © 2019 all rights reserved.
         </p>
       </div>
     </div>

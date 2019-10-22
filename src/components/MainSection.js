@@ -18,7 +18,9 @@ const MainSection = () => (
             something like Lanyard & hence we decided to open-source the project
           </p>
           <br />
-          <button>Get Lanyard</button>
+          <a className="button" href="//github.com/antstackio/lanyard">
+            Get Lanyard
+          </a>
         </div>
         <div className="right">
           <img src={phone} alt="phone_Demo" className="iphone" />

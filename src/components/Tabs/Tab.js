@@ -8,7 +8,7 @@ export const Tabs = props => {
   const selectTabIndex = activeIndex => {
     setActiveIndex(activeIndex)
   }
-  console.log(activeIndex + " tab")
+  // console.log(activeIndex + " tab")
   const children = React.Children.map(props.children, child => {
     return React.cloneElement(child, {
       activeIndex: activeIndex,
@@ -22,7 +22,7 @@ export const Tabs = props => {
   )
 }
 export const TabList = props => {
-  console.log(props.activeIndex + " tabList")
+  // console.log(props.activeIndex + " tabList")
   const children = React.Children.map(props.children, (child, index) => {
     return React.cloneElement(child, {
       isActive: index === props.activeIndex,
@@ -33,7 +33,7 @@ export const TabList = props => {
 }
 export const Tab = props => {
   const isDisabled = false
-  console.log(props.isActive + " tab")
+  // console.log(props.isActive + " tab")
   return (
     <li
       onClick={isDisabled ? null : props.onSelect}

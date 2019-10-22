@@ -13,12 +13,19 @@ const Scheduler = () => {
   const [newIndex, setNewIndex] = useState(0)
 
   function handleChange(val) {
-    console.log(val + " pranet")
     setNewIndex(val)
   }
 
-  const fieldList = ["eventType", "slotId", "timeStart", "timeEnd", "tracks"]
-  // const finJson = importedJson[0]
+  const baseJson = {
+    eventDarkColor: "#0a3d45",
+    eventDate: 1569628800000,
+    eventLogo: null,
+    eventName: "Soem",
+    eventSolidColor: "#52a828",
+    eventSpan: 2,
+    eventTracks: 4,
+  }
+  const fdate = new Date(baseJson.eventDate).getTime()
   const finJson = {
     slots: [
       {
@@ -60,6 +67,30 @@ const Scheduler = () => {
                 profilePicture: "Karthik.jpg",
                 designation: "Solutions Architect, Alexa Skills Kit, Amazon",
                 externalLink: "https://www.linkedin.com/in/pkarthikr/",
+              },
+            ],
+          },
+          {
+            trackId: "event22",
+            selectedFlag: "notSelected",
+            trackLength: 1,
+            feedBack: false,
+            title: "Massive Scale at Low Cost using EC2 Spot Instances",
+            speakers: [
+              {
+                firstName: "Chakravarthy",
+                lastName: "Nagarajan",
+                profilePicture: "Chakravarthy.jpg",
+                designation: "Solutions Architect, AWS",
+                externalLink:
+                  "https://www.linkedin.com/in/chakravarthy-nagarajan-7653311a/",
+              },
+              {
+                firstName: "Some",
+                lastName: "Babu",
+                profilePicture: "Mahesh.jpg",
+                designation: "Useless, Airforce",
+                externalLink: "https://www.linkedin.com/in/no_Link-7653311a/",
               },
             ],
           },
@@ -184,7 +215,7 @@ const Scheduler = () => {
                     <span>Add a Slot</span>
                   )}
                 </div>
-                {newRow && <NewSlot finJson={finJson} fieldList={fieldList} />}
+                {newRow && <NewSlot finJson={finJson} baseJson={baseJson} />}
                 <div className="newSlotTrig">
                   <button onClick={() => setNewRow(!newRow)}>Add Slot+</button>
                 </div>
