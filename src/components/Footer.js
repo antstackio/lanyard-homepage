@@ -38,7 +38,15 @@ const Footer = () => (
         </div>
         <hr className="hr" />
         <p className="foot_note">
-          Powered by antstack.io © 2019 all rights reserved.
+          &copy; Powered by{" "}
+          <a
+            href="http://antstack.io"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            antstack.io
+          </a>
+          . All Rights Reserved.
         </p>
       </div>
     </div>
