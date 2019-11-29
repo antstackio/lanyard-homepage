@@ -78,7 +78,7 @@ class Header extends Component {
               this.props.clickScroll("refClients")
             }}
           >
-            Clients
+            Events
           </li>
           <li
             onClick={() => {

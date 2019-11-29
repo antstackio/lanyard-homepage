@@ -7,7 +7,7 @@ import aav from "../images/aav.jpg"
 
 const Clients = () => (
   <div id="Clients">
-    <h1 className="the_title">Clients</h1>
+    <h1 className="the_title">Events</h1>
     <div className="container">
       <div className="in_wrap by_two">
         <div className="client_list">
