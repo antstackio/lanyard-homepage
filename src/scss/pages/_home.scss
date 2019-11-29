@@ -44,7 +44,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      @include respondToBelow(xs) {
+      @include respondToBelow(sm) {
         flex-wrap: wrap;
       }
       .left {
@@ -55,7 +55,7 @@
           width: 200px;
           display: block;
           margin: 0 auto 50px;
-          @include respondToBelow(xs) {
+          @include respondToBelow(sm) {
             width: 100px;
             margin: 0 auto 25px;
           }
@@ -64,7 +64,7 @@
           font-size: 14px;
         }
 
-        @include respondToBelow(xs) {
+        @include respondToBelow(sm) {
           width: 100%;
           padding: 15px;
         }
@@ -81,7 +81,7 @@
           bottom: 0;
         }
 
-        @include respondToBelow(xs) {
+        @include respondToBelow(sm) {
           display: none;
           width: 100%;
           padding: 30px;
@@ -356,6 +356,9 @@
     width: 100%;
   }
   color: #fff;
+  .soci {
+    margin-top: 15px;
+  }
   .logo_n_icons {
     display: flex;
     align-items: center;
