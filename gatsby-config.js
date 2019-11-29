@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-   title: `Lanyard`,
+    title: `Lanyard`,
     description: `The Agenda PWA (progressive web app) for your conference!`,
-    author: `@anstackio`
+    author: `@anstackio`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,8 +22,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ff9900`,
+        theme_color: `#ff9900`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },

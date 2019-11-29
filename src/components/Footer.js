@@ -1,12 +1,6 @@
 import React from "react"
 
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-  FaGithub,
-  FaSlack,
-} from "react-icons/fa"
+import { FaTwitter, FaGithub } from "react-icons/fa"
 
 import logo from "../images/logo.svg"
 
@@ -20,19 +14,14 @@ const Footer = () => (
           </div>
           <ul className="soci">
             <li>
-              <FaFacebookF />
+              <a href="ma//twitter.com/antstackio">
+                <FaTwitter />
+              </a>
             </li>
             <li>
-              <FaInstagram />
-            </li>
-            <li>
-              <FaTwitter />
-            </li>
-            <li>
-              <FaGithub />
-            </li>
-            <li>
-              <FaSlack />
+              <a href="//github.com/antstackio/lanyard">
+                <FaGithub />
+              </a>
             </li>
           </ul>
         </div>
