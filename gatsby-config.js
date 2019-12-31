@@ -2,7 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Lanyard`,
     description: `The Agenda PWA (progressive web app) for your conference!`,
-    author: `@anstackio`,
+    url: "https://lanyard.app",
+    image: `${__dirname}/src/images/gatsby-icon.png`,
+    author: `@antstackio`,
+    keywords:
+      "lanyard, tech conferences, agenda app, gatsby, pwa, conference app, progressive web app",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,6 +34,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
