@@ -9,6 +9,7 @@ import Features from "../components/Features"
 import Screens from "../components/Screens"
 import Clients from "../components/Clients"
 import Footer from "../components/Footer"
+import Connect from "../components/Connect"
 import SEO from "../components/seo"
 
 const IndexPage = () => {
@@ -17,6 +18,7 @@ const IndexPage = () => {
   const refScreens = React.createRef()
   const refClients = React.createRef()
   const refFooter = React.createRef()
+  const refConnect = React.createRef()
 
   function scroller(refstr) {
     if (refstr === "refMainSection") {
@@ -40,6 +42,9 @@ const IndexPage = () => {
     if (refstr === "refClients") {
       refClients.current.scrollIntoView({ offsetTop: -100, behavior: "smooth" })
     }
+    if(refstr === "refConnect"){
+      refConnect.current.scrollIntoView({ offsetTop : -100, behavior: "smooth"})
+    }
     if (refstr === "refFooter") {
       refFooter.current.scrollIntoView({ offsetTop: -100, behavior: "smooth" })
     }
@@ -58,6 +63,9 @@ const IndexPage = () => {
       </div>
       <div ref={refClients}>
         <Clients />
+      </div>
+      <div ref={refConnect}>
+        <Connect />
       </div>
       <div ref={refFooter}>
         <Footer />

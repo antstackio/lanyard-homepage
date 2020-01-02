@@ -82,12 +82,20 @@ class Header extends Component {
           </li>
           <li
             onClick={() => {
-              this.props.clickScroll("refFooter")
+              this.props.clickScroll("refConnect")
             }}
           >
             {" "}
             Connect
           </li>
+          {/* <li
+            onClick={() => {
+              this.props.clickScroll("refFooter")
+            }}
+          >
+            {" "}
+            Connect
+          </li> */}
           {/* <li>
             <Link to="/Scheduler">Scheduler</Link>
           </li> */}

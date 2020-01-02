@@ -33,7 +33,7 @@ const Footer = () => (
             target="_blank"
             rel="noreferrer noopener"
           >
-            antstack.io
+            antstack.io 2019-{(new Date().getFullYear())}
           </a>
           . All Rights Reserved.
         </p>
