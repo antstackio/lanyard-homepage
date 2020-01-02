@@ -1,0 +1,110 @@
+#contact {
+  padding: 100px 0;
+  position: relative;
+  min-height: 0;
+  @include respondToBelow(sm) {
+    padding: 50px 0;
+  }
+  &:before {
+    // content: "";
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: url(/static/bg_dark.svg) center bottom -1px no-repeat;
+    background-size: 105% auto;
+    pointer-events: none;
+    z-index: 99;
+    @include respondToBelow(sm) {
+      height: 100px;
+    }
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    @include respondToBelow(sm) {
+      display: block;
+    }
+    .illust {
+      @include respondToAbove(md) {
+        width: 40%;
+      }
+      img {
+        display: block;
+        margin: auto;
+      }
+      @include respondToBelow(sm) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0.1;
+      }
+    }
+    .inwrap {
+      display: flex;
+      align-items: flex-start;
+      @include respondToBelow(sm) {
+        flex-direction: column-reverse;
+      }
+    }
+    .main-heading-ttl {
+      text-align: center;
+      margin-bottom: 0;
+      @include respondToBelow(sm) {
+        margin: 0;
+        font-size: 7vw;
+        padding: 0;
+      }
+    }
+    .form {
+      margin-right: 0;
+      padding: 50px;
+      @include respondToAbove(md) {
+        width: 50%;
+        background: #fff;
+        margin-left: auto;
+        @include shadow;
+      }
+      @include respondToBelow(sm) {
+        padding: 15px;
+      }
+      .form-row {
+        margin-bottom: 25px;
+      }
+      form {
+        width: 100%;
+      }
+      .row {
+        margin: -20px -20px 0;
+      }
+      button {
+        width: 100%;
+      }
+      .addr {
+        background: $dark_base_color;
+        padding: 15px;
+        color: #fff;
+        @include theme-shadow;
+        @include respondToBelow(sm) {
+          width: 100%;
+        }
+        @include respondToAbove(md) {
+          margin-left: -200px;
+        }
+
+        .ico {
+          display: flex;
+          margin-bottom: 25px;
+          svg {
+            min-width: 25px;
+            height: 25px;
+            margin-right: 15px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
